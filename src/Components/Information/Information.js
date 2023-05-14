@@ -1,5 +1,5 @@
 import "./Information.css";
-import logo from "../../logo192.png";
+import logo from "../../assets/logo192.png";
 
 function Information() {
   return (

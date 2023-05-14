@@ -1,6 +1,5 @@
 import "./Welcome.css";
-import image from "../../me.jpg";
-//import {ReactComponent as Logo} from "../../logo.svg";
+import image from "../../assets/me.jpg";
 
 function Welcome() {
   return (
