@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #252525;
+
+    .routes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        height: 50%;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+
+        .name {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            .name-text {
+                color: #fff;
+                text-decoration: none;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+
+            hr {
+                border-top: 0.5px solid #ffffff7c;
+                width: 80%;
+            }
+        }
+
+        .visitor-count {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .count-text {
+                color: #fff;
+            }
+
+            .count {
+                color: #fff;
+                text-decoration: none;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+        }
+
+        .copyright {
+            color: #ffffff84;
+            font-size: 0.8rem;
+            font-weight: thin;
+        }
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 20%;
+
+        .icon {
+            color: #fff;
+            font-size: 1.3rem;
+            margin-right: 0.5rem;
+            margin-left: 0.5rem;
+        }
+
+        .icon:hover {
+            font-size: 1.5rem;
+            transition: 300ms;
+        }
+    }
+}
