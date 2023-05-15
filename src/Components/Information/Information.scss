@@ -5,9 +5,9 @@ body {
 .about {
     display: flex;
     flex-direction: column;
-    height: 30vh;
     padding-left: 10vw;
     padding-right: 10vw;
+    margin-bottom: 50px;
 
     .about-title {
         display: flex;
@@ -18,7 +18,7 @@ body {
     }
 
     .about-content {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 }
 

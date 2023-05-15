@@ -6,7 +6,9 @@ function Card({ image, title, content }) {
   return (
     <div className="link-card">
       <img src={image} className="card-image" alt="card-image" />
-      <p className="card-title">{title}</p>
+      <div className="title-container">
+        <p className="card-title">{title}</p>
+      </div>
       <p className="card-content">{content}</p>
     </div>
   );
@@ -23,7 +25,7 @@ function CardRow({ title, cards }) {
           <div key={index}>{card}</div>
         ))}
       </div>
-      <hr class="solid"/>
+      <hr class="solid" />
     </div>
   );
 }

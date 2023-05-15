@@ -25,6 +25,8 @@ function Footer() {
         </div>
         <p className="copyright">
           © 2023 Kadir Vefa OZLU - All rights reserved
+          <br />
+          Simay Buyuk ♡
         </p>
       </div>
       <div className="contacts">

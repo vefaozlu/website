@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.welcome-container {
+    display: flex;
+    background-color: #efefef;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+
+    .welcome-text {
+        width: 30%;
+
+        .welcome-title {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        .welcome-content {
+            font-size: 1.5rem;
+        }
+    }
+            
+    .welcome-image {
+        height: 50vh;
+        width: 50vh;border-radius: 50%;
+/*         border: 1px solid #2525253e;
+        box-shadow: 0px 10px 10px #00000027; */
+    }
+}

@@ -1,4 +1,4 @@
-import "./Welcome.css";
+import "./Welcome.scss";
 import image from "../../assets/me.jpg";
 
 function Welcome() {
@@ -6,7 +6,7 @@ function Welcome() {
     <div className="welcome-container">
       <div className="welcome-text">
         <p className="welcome-title">Hello!</p>
-        <p className="welcome-content">I am Vefa Ozlu, Front-end Developer and Deep Learning Enthusiast.</p>
+        <p className="welcome-content">I am Vefa Ozlu and this is my webpage. There's a lot here, so thanks for stopping by!</p>
       </div>
       <img className="welcome-image" src={image} alt="iamge"/>
     </div>
